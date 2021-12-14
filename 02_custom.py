@@ -1,6 +1,6 @@
 """
 Example using the components provided by spacy-streamlit in an existing app.
-
+!python -m spacy download en_core_web_sm
 Prerequisites:
 python -m spacy download en_core_web_sm
 """
