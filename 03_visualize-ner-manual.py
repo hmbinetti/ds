@@ -16,6 +16,5 @@ spacy_streamlit.visualize_ner(
     doc,
     labels=["ORG"],
     show_table=False,
-    title="Persons, dates and locations",
-    manual=True
+    title="Persons, dates and locations"
 )
