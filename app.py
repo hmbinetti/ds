@@ -214,7 +214,7 @@ def API_Twitter(hash_list):
 
 def do_wordcloud(df):
     
-    df=df.progress_apply(lambda x: clean_text(x))
+    df=df.apply(lambda x: clean_text(x))
     
     corpus = " ".join([text for text in df])
     stopwords_cloud = set(STOPWORDS)
