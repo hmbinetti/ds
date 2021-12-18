@@ -6,4 +6,4 @@ nltk
 textblob
 tweepy
 sklearn
-
+BeautifulSoup
