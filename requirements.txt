@@ -8,3 +8,14 @@ tweepy
 sklearn
 BeautifulSoup4
 unidecode
+matplotlib
+  
+xgboost
+catboost
+lightgbm
+
+# Libreria para barras de progreso
+tqdm
+    
+
+    
