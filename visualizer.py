@@ -33,8 +33,9 @@ from spacy.lang.en import English
 
 stop_words_eng = spacy.lang.en.stop_words.STOP_WORDS
 punctuations = string.punctuation
-spacy_model = 'en'
-nlp = load_model(spacy_model)
+spacy_model = 'en_core_web_sm'
+#nlp = load_model(spacy_model)
+nlp = spacy.blank('es')
 
 # fmt: off
 NER_ATTRS = ["text", "label_", "start", "end", "start_char", "end_char"]
