@@ -26,6 +26,9 @@ from textblob import TextBlob
 from textblob import Word
 
 from util import load_model, process_text, get_svg, get_html, LOGO
+from spacy.lang.en import English
+!python -m spacy download en
+!python -m spacy download en_core_web_sm
 
 stop_words_eng = spacy.lang.en.stop_words.STOP_WORDS
 punctuations = string.punctuation
