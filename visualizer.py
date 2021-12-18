@@ -6,6 +6,18 @@ from spacy import displacy
 import pandas as pd
 import pickle
 import string
+#Libreria para NLP
+import nltk
+from nltk.corpus import stopwords
+from nltk.stem.porter import PorterStemmer
+from nltk.tokenize.toktok import ToktokTokenizer
+from nltk.stem import LancasterStemmer,WordNetLemmatizer
+from nltk.stem import WordNetLemmatizer
+from nltk.tokenize import word_tokenize,sent_tokenize
+from nltk.sentiment.vader import SentimentIntensityAnalyzer # Analisis de sentimiento
+
+from textblob import TextBlob
+from textblob import Word
 
 
 from nltk.sentiment.vader import SentimentIntensityAnalyzer # Analisis de sentimiento
