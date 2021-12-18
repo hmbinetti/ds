@@ -7,3 +7,4 @@ textblob
 tweepy
 sklearn
 BeautifulSoup4
+unidecode
