@@ -6,3 +6,4 @@ nltk
 textblob
 tweepy
 sklearn
+bs64
