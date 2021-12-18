@@ -28,8 +28,8 @@ from textblob import Word
 from util import load_model, process_text, get_svg, get_html, LOGO
 from spacy.lang.en import English
 
-pip install spacy download en
-pip install spacy download en_core_web_sm
+# pip install spacy download en
+# pip install spacy download en_core_web_sm
 
 stop_words_eng = spacy.lang.en.stop_words.STOP_WORDS
 punctuations = string.punctuation
