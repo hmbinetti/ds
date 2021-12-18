@@ -17,5 +17,5 @@ lightgbm
 # Libreria para barras de progreso
 tqdm
     
-
+en_core_web_sm
     
