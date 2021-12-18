@@ -3,7 +3,6 @@ spacy
 pandas
 spacy_streamlit
 nltk
-nltk.corpus
 textblob
 tweepy
 
