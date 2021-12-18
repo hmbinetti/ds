@@ -56,7 +56,7 @@ def prediccion(text):
     return 
     
 def load_modelo():
-    pickle_file = 'Data\modelo_entrenado_app.pkl'
+    pickle_file = 'Data/modelo_entrenado_app.pkl'
     with open(pickle_file, 'rb') as f:
         modelo_class = pickle.load(f)
     return modelo_class
