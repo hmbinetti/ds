@@ -10,9 +10,9 @@ BeautifulSoup4
 unidecode
 matplotlib
 wordcloud  
-xgboost
-catboost
-lightgbm
+#xgboost
+#catboost
+#lightgbm
 
 # Libreria para barras de progreso
 tqdm
