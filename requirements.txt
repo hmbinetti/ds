@@ -5,4 +5,4 @@ spacy_streamlit
 nltk
 textblob
 tweepy
-bs64
+
