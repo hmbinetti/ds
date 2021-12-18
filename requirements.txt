@@ -6,4 +6,4 @@ nltk
 nltk.corpus
 textblob
 tweepy
-python -m spacy download en_core_web_sm
+
