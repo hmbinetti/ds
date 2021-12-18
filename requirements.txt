@@ -9,7 +9,7 @@ sklearn
 BeautifulSoup4
 unidecode
 matplotlib
-  
+wordcloud  
 xgboost
 catboost
 lightgbm
