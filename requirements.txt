@@ -16,6 +16,6 @@ lightgbm
 
 # Libreria para barras de progreso
 tqdm
-    
-en_core_web_sm
+pip    
+pip3 spacy download en_core_web_sm
     
