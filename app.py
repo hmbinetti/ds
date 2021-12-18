@@ -332,20 +332,20 @@ if __name__=='__main__':
     from sklearn.model_selection import GridSearchCV
     from sklearn.model_selection import StratifiedKFold
 
-    from sklearn.metrics import roc_auc_score
-    from sklearn.linear_model import LogisticRegression,SGDClassifier
-    from sklearn.naive_bayes import GaussianNB
-    from sklearn.naive_bayes import MultinomialNB
-    from sklearn.naive_bayes import BernoulliNB
-    from sklearn.svm import SVC
-    from sklearn.ensemble import RandomForestClassifier
-    from sklearn.ensemble import AdaBoostClassifier
-    from sklearn.ensemble import GradientBoostingClassifier
-    from sklearn.ensemble import ExtraTreesClassifier
-    from sklearn.decomposition import TruncatedSVD
-    from xgboost.sklearn import XGBClassifier
-    from catboost import CatBoostClassifier
-    import lightgbm as lgb
+    #from sklearn.metrics import roc_auc_score
+    #from sklearn.linear_model import LogisticRegression,SGDClassifier
+    #from sklearn.naive_bayes import GaussianNB
+    #from sklearn.naive_bayes import MultinomialNB
+    #from sklearn.naive_bayes import BernoulliNB
+    #from sklearn.svm import SVC
+    #from sklearn.ensemble import RandomForestClassifier
+    #from sklearn.ensemble import AdaBoostClassifier
+    #from sklearn.ensemble import GradientBoostingClassifier
+    #from sklearn.ensemble import ExtraTreesClassifier
+    #from sklearn.decomposition import TruncatedSVD
+    #from xgboost.sklearn import XGBClassifier
+    #from catboost import CatBoostClassifier
+    #import lightgbm as lgb
 
     #Libreria para NLP
     import nltk
@@ -363,9 +363,9 @@ if __name__=='__main__':
     from wordcloud import WordCloud,STOPWORDS
     
     # Libreria para barras de progreso
-    from tqdm.notebook import tqdm_notebook
-    tqdm_notebook.pandas()
-    from tqdm import tqdm, tqdm_notebook
+    #from tqdm.notebook import tqdm_notebook
+    #tqdm_notebook.pandas()
+    #from tqdm import tqdm, tqdm_notebook
 
     from bs4 import BeautifulSoup
     
