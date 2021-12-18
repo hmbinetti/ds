@@ -18,5 +18,5 @@ lightgbm
 tqdm
 pip    
 
-pip spacy download en_core_web_sm
+#pip spacy download en_core_web_sm
     
